@@ -21,11 +21,11 @@ dependencies = [
 
 modextrapaths = {'PATH': ''}
 
+postinstallcmds = ["cd  %(installdir)s && mv salome salome_old && ln -s mesa_salome salome"]
+
 sanity_check_paths = {
     'files': ["salome"],
     'dirs': ["BINARIES-CO7"],
 }
-
-postinstallcmds = ["cd  %(installdir)s && mv salome salome_old && ln -s mesa_salome salome"]
 
 moduleclass = 'cae'
