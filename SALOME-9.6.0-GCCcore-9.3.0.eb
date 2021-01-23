@@ -3,7 +3,6 @@ easyblock = 'Tarball'
 name = 'SALOME'
 version = '9.6.0'
 
-
 homepage = 'https://www.salome-platform.org'
 description = """Salome is an open-source software that provides a generic Pre- and Post-Processing platform for numerical
  simulation. It is based on an open and flexible architecture made of reusable components."""
