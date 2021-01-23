@@ -1,7 +1,7 @@
 easyblock = 'Tarball'
 
 name = 'bpytop'
-version = '1.0.59'
+version = '1.0.60'
 
 homepage = 'https://github.com/aristocratos/bpytop/'
 description = """Resource monitor that shows usage and stats for processor, memory, disks, network and processes."""
