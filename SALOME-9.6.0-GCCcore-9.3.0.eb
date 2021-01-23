@@ -14,6 +14,7 @@ sources = [SOURCE_TAR_GZ]
 checksums = ['09aec1d99d36d7d11cdf835efcf8b9ed0c60fe08e2d748b12a7f64551f9287d7']
 
 dependencies = [
+	('Python', '3.8.2'),
 	('libGLU', '9.0.1'),
 	('libglvnd', '1.2.0'),
 ]
