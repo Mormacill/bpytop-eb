@@ -21,7 +21,7 @@ dependencies = [
 
 modextrapaths = {'PATH': ''}
 
-postinstallcmds = ["cd  %(installdir)s && mv salome salome_old && ln -s mesa_salome salome"]
+postinstallcmds = ["cd  %(installdir)s && mv salome salome_old && chmod -x salome_old && ln -s mesa_salome salome"]
 
 sanity_check_paths = {
     'files': ["salome"],
