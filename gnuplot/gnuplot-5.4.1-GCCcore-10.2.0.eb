@@ -12,7 +12,7 @@
 easyblock = 'ConfigureMake'
 
 name = 'gnuplot'
-version = '5.2.8'
+version = '5.4.1'
 
 homepage = 'https://gnuplot.sourceforge.net/'
 description = """Portable interactive, function plotting utility"""
@@ -21,7 +21,7 @@ toolchain = {'name': 'GCCcore', 'version': '10.2.0'}
 
 source_urls = [('https://sourceforge.net/projects/gnuplot/files/gnuplot/%(version)s', 'download')]
 sources = [SOURCE_TAR_GZ]
-checksums = ['60a6764ccf404a1668c140f11cc1f699290ab70daa1151bb58fed6139a28ac37']
+checksums = ['6b690485567eaeb938c26936e5e0681cf70c856d273cc2c45fabf64d8bc6590e']
 
 builddependencies = [
     ('binutils', '2.35'),
