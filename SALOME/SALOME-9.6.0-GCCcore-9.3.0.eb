@@ -19,6 +19,8 @@ dependencies = [
 	('libglvnd', '1.2.0'),
 ]
 
+osdependencies = [('hostname')]
+
 modextrapaths = {'PATH': ''}
 
 postinstallcmds = ["cd  %(installdir)s && mv salome salome_old && chmod -x salome_old && ln -s mesa_salome salome"]
